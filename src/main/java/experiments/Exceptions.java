@@ -9,7 +9,7 @@ public class Exceptions {
 
     private static void uncheckedException(String[] strArray) {
         try {
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < strArray.length; i++) {
                 System.out.println(strArray[i]);
             }
         } catch (ArrayIndexOutOfBoundsException e) {
@@ -17,5 +17,6 @@ public class Exceptions {
             System.out.println("create");
         }
         System.out.println("End");
+
     }
 }
