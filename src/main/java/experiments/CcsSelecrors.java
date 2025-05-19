@@ -73,7 +73,7 @@ public void hideBanner(){
 
 
 }
-public void hideFoter(){
+public void hideFooter(){
     JavascriptExecutor js =(JavascriptExecutor) driver;
     js.executeScript("document.querySelector('#fixedban')" +
             ".style.display='none'");
