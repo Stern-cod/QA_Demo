@@ -19,4 +19,7 @@ public class Exceptions {
         System.out.println("End");
 
     }
+    private static void pause(){
+
+    }
 }
